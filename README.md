@@ -1,7 +1,7 @@
-# eloQ releases
+# Releases do eloQ
 
-Official **eloQ** release artifacts (Windows installer, updater bundles, `latest.json`).
+Artefatos oficiais de distribuição do **eloQ** para Windows e macOS, além dos arquivos necessários ao atualizador automático (`latest.json` e bundles assinados quando disponíveis).
 
-Source code is maintained privately.
+O código-fonte do aplicativo é mantido em um repositório privado separado.
 
-Do not open PRs with application source here — binaries and release metadata only.
+Este repositório contém apenas binários e metadados de release. Não envie pull requests com código-fonte do aplicativo aqui.
