@@ -37,6 +37,14 @@ You are in an interview, a sales call or an important meeting. Someone asks some
 
 It is a desktop app for **Windows** and **macOS**, with the interface in **Brazilian Portuguese and English**.
 
+## Watch it in 1 minute
+
+<p align="center">
+  <a href="https://trichains.dev/eloq#video"><img src="docs/images/video-thumb.webp" alt="Watch the eloQ presentation video: 1 minute, with sound" width="760"></a>
+  <br>
+  <sub>▶ <a href="https://trichains.dev/eloq#video"><b>Watch in 1 minute, with sound</b></a> &nbsp;·&nbsp; <a href="docs/eloq-apresentacao.mp4">open the MP4 file (5.5 MB)</a><br>Video in Portuguese. The conversation is a fictional example.</sub>
+</p>
+
 ## Highlights
 
 | | |

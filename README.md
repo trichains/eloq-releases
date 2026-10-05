@@ -37,6 +37,14 @@ Você está numa entrevista, numa call de vendas ou numa reunião importante. Al
 
 É um aplicativo de desktop para **Windows** e **macOS**, com a interface em **português do Brasil e em inglês**.
 
+## Veja em 1 minuto
+
+<p align="center">
+  <a href="https://trichains.dev/eloq#video"><img src="docs/images/video-thumb.webp" alt="Assistir ao vídeo de apresentação do eloQ: 1 minuto, com som" width="760"></a>
+  <br>
+  <sub>▶ <a href="https://trichains.dev/eloq#video"><b>Assistir em 1 minuto, com som</b></a> &nbsp;·&nbsp; <a href="docs/eloq-apresentacao.mp4">abrir o arquivo MP4 (5,5 MB)</a><br>Vídeo em português. A conversa é um exemplo fictício.</sub>
+</p>
+
 ## Destaques
 
 | | |
