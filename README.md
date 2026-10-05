@@ -133,18 +133,19 @@ Os outros arquivos de cada versão (`latest.json`, `.nsis.zip` e `.sig`) são us
 | **Respostas (LLM)** | Ollama, LM Studio | OpenAI, Anthropic, Gemini, Groq, OpenRouter |
 | **Tradução** | OPUS-MT (funciona sem internet) | Microsoft, Google, DeepL ou um modelo de IA |
 
-## Privacidade: para onde os dados vão
+## Privacidade: você escolhe
 
-O eloQ usa **as suas próprias chaves de API** e **não tem servidor intermediário para áudio ou texto**. O que sai do seu computador depende só dos provedores que você escolher.
+O eloQ **não tem servidor próprio para áudio ou texto** e usa **as suas chaves de API**. Você decide, canal por canal, se quer tudo no seu computador ou a qualidade de um serviço de nuvem.
 
-| O quê | Para onde vai |
+| Se você escolher... | O que acontece |
 |---|---|
-| Transcrição local | O áudio fica na sua máquina |
-| Transcrição em nuvem | O áudio vai para o provedor escolhido |
-| LLM local (Ollama, LM Studio) | A transcrição fica na sua máquina |
-| LLM em nuvem | A transcrição e os documentos vão para o provedor escolhido |
-| Chaves de API e histórico | Ficam na sua máquina (Gerenciador de Credenciais ou Keychain, e um banco local) |
-| Licença | Seu e-mail e um identificador da instalação em hash vão ao servidor de licença. **Áudio, transcrição e prompts nunca vão.** |
+| **Tudo local** (Whisper.cpp, Sherpa-ONNX, Parakeet, Ollama, LM Studio, OPUS-MT) | Áudio e texto **nunca saem do seu computador**. |
+| **Transcrição em nuvem** (Deepgram, Groq, Azure, OpenAI) | O áudio é enviado ao provedor para ser transcrito. |
+| **Respostas em nuvem** (OpenAI, Anthropic, Gemini, Groq, OpenRouter) | A conversa e os documentos daquela pergunta são enviados ao provedor para gerar a resposta. |
+| **Chaves, histórico e gravações** | Ficam só na sua máquina (Gerenciador de Credenciais ou Keychain, e um banco local). |
+| **Licença** | Só o seu e-mail e um identificador da instalação em hash vão ao servidor de licença. **Áudio, transcrição e prompts nunca vão.** |
+
+Ao usar um provedor de nuvem, valem a política de privacidade e as configurações de retenção da **sua conta** nele. Vale conferir antes de uma conversa sensível. Quer o máximo de privacidade? Combine transcrição e respostas locais.
 
 ## Demo e versão completa
 
@@ -185,9 +186,9 @@ No Windows, o modo stealth exclui a janela de prints, gravações e compartilham
 </details>
 
 <details>
-<summary><b>O meu áudio vai para os seus servidores?</b></summary>
+<summary><b>O meu áudio vai para os servidores do eloQ?</b></summary>
 
-Não. Não existe servidor intermediário para áudio ou texto. O áudio só sai do seu computador se você escolher um provedor de transcrição em nuvem, e aí ele vai para esse provedor. Veja [Privacidade](#privacidade-para-onde-os-dados-vão).
+Não. O eloQ não tem servidor próprio para áudio ou texto. Se você usar provedores locais, nada sai do seu computador. Se escolher um provedor de nuvem para transcrever ou responder, o conteúdo vai para esse provedor, e valem as regras da sua conta nele. Veja [Privacidade](#privacidade-você-escolhe).
 </details>
 
 <details>

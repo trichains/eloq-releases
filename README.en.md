@@ -133,18 +133,19 @@ The other files in each release (`latest.json`, `.nsis.zip` and `.sig`) are used
 | **Answers (LLM)** | Ollama, LM Studio | OpenAI, Anthropic, Gemini, Groq, OpenRouter |
 | **Translation** | OPUS-MT (works offline) | Microsoft, Google, DeepL, or an AI model |
 
-## Privacy: where your data goes
+## Privacy: you choose
 
-eloQ uses **your own API keys** and has **no intermediate server for audio or text**. What leaves your computer depends only on the providers you choose.
+eloQ **has no server of its own for audio or text** and uses **your own API keys**. You decide, channel by channel, whether to keep everything on your computer or use a cloud service for quality.
 
-| What | Where it goes |
+| If you choose... | What happens |
 |---|---|
-| Local transcription | The audio stays on your machine |
-| Cloud transcription | The audio goes to the provider you picked |
-| Local LLM (Ollama, LM Studio) | The transcript stays on your machine |
-| Cloud LLM | The transcript and documents go to the provider you picked |
-| API keys and meeting history | Stay on your machine (Credential Manager or Keychain, and a local database) |
-| License | Your email and a hashed installation id go to the license server. **Audio, transcript and prompts never do.** |
+| **Everything local** (Whisper.cpp, Sherpa-ONNX, Parakeet, Ollama, LM Studio, OPUS-MT) | Audio and text **never leave your computer**. |
+| **Cloud transcription** (Deepgram, Groq, Azure, OpenAI) | The audio is sent to the provider to be transcribed. |
+| **Cloud answers** (OpenAI, Anthropic, Gemini, Groq, OpenRouter) | The conversation and documents for that question are sent to the provider to write the answer. |
+| **Keys, history and recordings** | Stay only on your machine (Credential Manager or Keychain, and a local database). |
+| **License** | Only your email and a hashed installation id go to the license server. **Audio, transcript and prompts never do.** |
+
+When you use a cloud provider, the privacy policy and retention settings of **your account** with them apply. It is worth checking before a sensitive conversation. Want maximum privacy? Combine local transcription and local answers.
 
 ## Demo and full version
 
@@ -185,9 +186,9 @@ On Windows, stealth mode excludes the window from screenshots, recordings and sc
 </details>
 
 <details>
-<summary><b>Is my audio sent to your servers?</b></summary>
+<summary><b>Is my audio sent to eloQ servers?</b></summary>
 
-No. There is no intermediate server for audio or text. Audio only leaves your computer if you choose a cloud transcription provider, and then it goes to that provider. See [Privacy](#privacy-where-your-data-goes).
+No. eloQ has no server of its own for audio or text. With local providers, nothing leaves your computer. If you pick a cloud provider to transcribe or answer, the content goes to that provider, and the rules of your account with them apply. See [Privacy](#privacy-you-choose).
 </details>
 
 <details>
