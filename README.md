@@ -190,7 +190,7 @@ Por padrão, não: você aperta **ESPAÇO** (ou **Responder agora**) quando quis
 <details>
 <summary><b>A outra pessoa consegue ver a janela do eloQ?</b></summary>
 
-No Windows, o modo stealth exclui a janela de prints, gravações e compartilhamento de tela. Isso depende do sistema e do aplicativo de compartilhamento, então teste antes de uma chamada importante. Siga as regras do contexto em que você usar o eloQ.
+Se você compartilhar a tela, a janela aparece, como qualquer outra. Para tirá-la da tela na hora, use o atalho Ctrl+Shift+H. No Windows, enquanto está escondida, ela também sai de prints e gravações. Siga as regras do contexto em que você usar o eloQ.
 </details>
 
 <details>

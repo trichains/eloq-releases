@@ -190,7 +190,7 @@ By default, no: you press **SPACE** (or **Answer now**) when you want a suggesti
 <details>
 <summary><b>Can the other person see the eloQ window?</b></summary>
 
-On Windows, stealth mode excludes the window from screenshots, recordings and screen sharing. This depends on the system and on the screen sharing app, so test it before an important call. Please follow the rules of the context where you use eloQ.
+If you share your screen, the window shows up like any other. To take it off the screen instantly, press Ctrl+Shift+H. On Windows, while it is hidden, it also stays out of screenshots and recordings. Please follow the rules of the context where you use eloQ.
 </details>
 
 <details>
